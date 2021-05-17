@@ -1,0 +1,15 @@
+1) What are the two type of Intents? Explicit and implicit intent.
+
+2) Which of the two types of Intents are more secure? Explicit intent.
+
+3) What type of Intent is shown on lines 69 to 73 of SecondFragment.kt? Explicit intent.
+
+4) What type of Intent is shown on lines 68 to 70 of ThirdFragment.kt? Explicit intent.
+
+5) Which of tese two Intents is the prorper way to do an Intent? ThirdFragment.kt
+
+Lines 68 to 70 of ThirdFragment.kt:
+
+                        var intent = Intent(activity, ProductScrollingActivity::class.java)
+                        intent.putExtra("User", loggedInUser);
+                        startActivity(intent)
