@@ -1,0 +1,4 @@
+If the user knows the card number, there seems to be no checking
+who that card belongs to. If the user is authorized, we should go
+through querying the user's cards and find out whether the requested
+card is actually purchased by that user.

@@ -4,9 +4,6 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
 
 
@@ -22,6 +19,7 @@
         <activity
             android:name=".UseCard"
             android:label="@string/title_activity_use_card"
+            android:exported="false"
             android:theme="@style/Theme.GiftcardSite.NoActionBar">
             <intent-filter>
             <action android:name="android.intent.action.VIEW" />
@@ -36,6 +34,7 @@
         <activity
             android:name=".GetCard"
             android:label="@string/title_activity_get_card"
+            android:exported="false"
             android:theme="@style/Theme.GiftcardSite.NoActionBar">
             <intent-filter>
             <action android:name="android.intent.action.VIEW" />
@@ -50,6 +49,7 @@
         <activity
             android:name=".ProductScrollingActivity"
             android:label="@string/title_activity_scrolling"
+            android:exported="false"
             android:theme="@style/Theme.GiftcardSite.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -74,6 +74,7 @@
         <activity
             android:name=".CardScrollingActivity"
             android:label="@string/title_activity_scrolling_card"
+            android:exported="false"
             android:theme="@style/Theme.GiftcardSite.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
