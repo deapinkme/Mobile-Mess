@@ -1,10 +1,12 @@
 There are two types of Intent, explicit and implicit, explicit being the more secure of the two.
 Both SecondFragment.kt and ThirdFragment.kt are explici, however SecondFragment.kt is flawed.
 
-SecondFragment.kt is modified to include:
+SecondFragment.kt originally included:
+
+                        var intent = Intent(Intent.ACTION_VIEW)
+
+Which is replaced by:
 
                         var intent = Intent(activity, ProductScrollingActivity::class.java)
-compared to:
-                        var intent = Intent(Intent.ACTION_VIEW)
 
 Now a user may activatate all activites.
